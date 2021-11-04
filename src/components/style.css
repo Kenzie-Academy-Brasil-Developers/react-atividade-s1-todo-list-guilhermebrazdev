@@ -1,0 +1,27 @@
+#input {
+  width: 200px;
+  height: 20px;
+}
+
+.botao {
+  height: 26px;
+  width: 90px;
+  cursor: pointer;
+  background: aquamarine;
+  border-radius: 8px;
+  border: none;
+}
+
+.botao:hover {
+  filter: brightness(0.9);
+}
+
+#removeBotao {
+  margin-right: 10px;
+}
+
+#taskBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
